@@ -51,21 +51,3 @@ Records every event — successes and failures — using an `ArrayList<String>`.
 
 ### `FinSafeApp.java`
 Entry point. Owns the main loop, menu rendering, and all `try-catch-finally` blocks. Demonstrates how to call methods that `throw` checked exceptions and how to handle multiple exception types differently.
-
-
-
----
-
-## Core Concepts 
-
-
-| **Encapsulation** | `Account.java` — private fields, public methods |
-| **Custom Exception** | `InSufficientFundsException.java` — extends Exception |
-| **Checked vs Unchecked Exceptions** | `InSufficientFunds` (checked) vs `IllegalArgumentException` (unchecked) |
-| **try-catch-finally** | `FinSafeApp.handleWithdrawal()` |
-| **ArrayList** | `Account.transactionHistory`, `AuditLogger.auditLog` |
-| **enum** | `AuditLogger.EventType` |
-| **Static fields & methods** | `MAX_HISTORY`, utility methods |
-| **Access Modifiers** | private / public / final used  |
-
----
